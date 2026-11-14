@@ -1,0 +1,183 @@
+{
+  "admin": {
+    "passwordHash": "7d3fa8e317a86149f71bec0f37053f0448715d600acf1522d8aba20c0cb5475e",
+    "email": "nawito@gmail.com"
+  },
+  "customers": [
+    {
+      "name": "hussein",
+      "email": "nawito@gmail.com",
+      "phone": "01020046366",
+      "address": {
+        "line1": "cairo nozha",
+        "line2": "1",
+        "city": "cairo",
+        "region": "nozha",
+        "postalCode": "",
+        "country": "egypt"
+      },
+      "preferences": [
+        "rings"
+      ],
+      "birthDate": "1977-10-27",
+      "marketingConsent": false,
+      "personalIdEncrypted": "",
+      "personalIdLast4": "",
+      "id": "749fffafb96e47e502ee516be943ae6c",
+      "passwordHash": "scrypt:476335728690a89ad897abcdbefdab21:aca1d9a2bb1b62f1dc91ccbc812b882472d0272919698b6fd3acc63e63b66832b7e2f421304d5a3c67a57cedd014a8d162af8f18c3d7a93611c1ce0f897314de",
+      "createdAt": "2026-11-14T14:14:13.679Z",
+      "mustChangePassword": false
+    }
+  ],
+  "orders": [
+    {
+      "id": "ec935d1313b1e8e1a19a542c3f2a0527",
+      "customerId": "749fffafb96e47e502ee516be943ae6c",
+      "items": [
+        {
+          "productId": 1,
+          "name": "The Golden Hour Necklace",
+          "category": "Necklaces",
+          "unitPrice": 425,
+          "quantity": 2,
+          "image": "/uploads/products/827a772f57e8f6b2f95b04e9de042e6c.webp"
+        },
+        {
+          "productId": 2,
+          "name": "The Eternal Ring",
+          "category": "Rings",
+          "unitPrice": 680,
+          "quantity": 1,
+          "image": "/uploads/products/b3af30b10187403a2f1fb48e500b3e0c.webp"
+        },
+        {
+          "productId": 3,
+          "name": "Everyday Golden Hoops",
+          "category": "Earrings",
+          "unitPrice": 295,
+          "quantity": 1,
+          "image": "/uploads/products/ce27a04c5fb93896705eed55f79a678b.webp"
+        },
+        {
+          "productId": 4,
+          "name": "The Golden Link Bracelet",
+          "category": "Bracelets",
+          "unitPrice": 540,
+          "quantity": 1,
+          "image": "/uploads/products/fde9aeb56bb5235dc44a82018c141e3e.webp"
+        }
+      ],
+      "total": 2365,
+      "currency": "USD",
+      "status": "requested",
+      "createdAt": "2026-11-14T14:14:25.868Z",
+      "address": {
+        "line1": "cairo nozha",
+        "line2": "1",
+        "city": "cairo",
+        "region": "nozha",
+        "postalCode": "",
+        "country": "egypt"
+      },
+      "note": ""
+    },
+    {
+      "id": "f88c6156674267ad8e0e4d9f27bc4fa8",
+      "customerId": "749fffafb96e47e502ee516be943ae6c",
+      "items": [
+        {
+          "productId": 4,
+          "name": "The Golden Link Bracelet",
+          "category": "Bracelets",
+          "unitPrice": 540,
+          "quantity": 1,
+          "image": "/uploads/products/fde9aeb56bb5235dc44a82018c141e3e.webp"
+        }
+      ],
+      "total": 540,
+      "currency": "USD",
+      "status": "completed",
+      "createdAt": "2026-11-14T14:18:06.668Z",
+      "address": {
+        "line1": "cairo nozha",
+        "line2": "1",
+        "city": "cairo",
+        "region": "nozha",
+        "postalCode": "",
+        "country": "egypt"
+      },
+      "note": ""
+    },
+    {
+      "id": "8e1b4398b14381a8d85d2fe55e3a378b",
+      "customerId": "749fffafb96e47e502ee516be943ae6c",
+      "items": [
+        {
+          "productId": 1,
+          "name": "The Golden Hour Necklace",
+          "nameAr": "قلادة الساعة الذهبية",
+          "category": "Necklaces",
+          "unitPrice": 425,
+          "quantity": 1,
+          "image": "/uploads/products/827a772f57e8f6b2f95b04e9de042e6c.webp"
+        }
+      ],
+      "total": 425,
+      "currency": "USD",
+      "status": "requested",
+      "createdAt": "2026-11-14T15:24:47.625Z",
+      "address": {
+        "line1": "cairo nozha",
+        "line2": "1",
+        "city": "cairo",
+        "region": "nozha",
+        "postalCode": "",
+        "country": "egypt"
+      },
+      "note": ""
+    }
+  ],
+  "segments": [
+    {
+      "id": "227f81b64b4970138538ccadd75f28dc",
+      "name": "ring",
+      "rules": {
+        "preference": "rings",
+        "address": "",
+        "category": "",
+        "purchasedAfter": "",
+        "minOrders": 0,
+        "minSpend": 0
+      }
+    }
+  ],
+  "templates": [
+    {
+      "id": "abc61487c22b832b1a510493bd3946a7",
+      "name": "ring",
+      "subject": "new collection",
+      "body": "hello {{name}}\nthere are new rings avaliable"
+    }
+  ],
+  "campaigns": [
+    {
+      "id": "835442982b80b2925fe8b49d4e3884cf",
+      "name": "ring / ring",
+      "subject": "new collection",
+      "body": "hello {{name}}\nthere are new rings avaliable",
+      "createdAt": "2026-11-14T14:17:19.933Z",
+      "status": "draft",
+      "recipients": []
+    },
+    {
+      "id": "6fca5d5406574aa05f973d720d2a4a96",
+      "name": "ring / ring",
+      "subject": "new collection",
+      "body": "hello {{name}}\nthere are new rings avaliable",
+      "createdAt": "2026-11-14T15:30:47.692Z",
+      "status": "draft",
+      "recipients": []
+    }
+  ],
+  "resets": []
+}

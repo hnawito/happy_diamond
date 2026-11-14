@@ -1,0 +1,10 @@
+{
+  "host": "smtp.gmail.com",
+  "port": 465,
+  "secure": true,
+  "user": "your-store@gmail.com",
+  "from": "Happy Diamond <your-store@gmail.com>",
+  "adminEmail": "your-store@gmail.com",
+  "appUrl": "http://localhost:5173",
+  "passwordEnv": "SMTP_PASSWORD"
+}
